@@ -371,7 +371,7 @@ h3 {
 
 .collection {
   padding: 100px 0;
-  border-top: 1px solid var(--color-border);
+  /* border-top: 1px solid var(--color-border); */
 }
 
 .collection__title {
