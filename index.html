@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Lexic Cuf Ring | Premium Jewelry</title>
+    <meta
+      name="description"
+      content="Discover the exquisite Lexic Cuf Ring, a masterpiece of luxury and craftsmanship."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+        </div>
+        <div class="nav__cart">
+          <span class="nav__cart-text">Cart</span>
+          <div class="nav__cart-icon-wrapper">
+            <svg
+              class="nav__cart-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 11V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V11M5 9H19L20 21H4L5 9Z"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span id="cart-counter" class="nav__cart-count">0</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product container" id="product-container">
+        <div class="loader">Loading product details...</div>
+      </section>
+
+      <section class="collection container">
+        <h2 class="collection__title">Ring Collection</h2>
+        <div class="collection__list" id="collection-list">
+        </div>
+        <div class="collection__footer">
+          <button class="btn-outline">Shop Rings</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
